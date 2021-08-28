@@ -822,7 +822,7 @@ $( document ).ready(function() {
   	$('#product5Block').fadeOut(300);
   });
   
-  $('#product5Image1, #product5Image2).click(function(){
+  $('#product5Image1, #product5Image2').click(function(){
     window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/fragrances.pdf");
   });
   
