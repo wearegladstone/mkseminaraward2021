@@ -672,7 +672,172 @@ $( document ).ready(function() {
   $('#4ValuesButton4').click(function(){
     $('#4ValuesImage').attr('src',"images/Core_Value 4.jpg");
   });
-     
+  
+ //Mary Kay Products
+  $('#productGalleryButton,#productGalleryButton2').click(function(){
+  	$('#productBlock').fadeIn(300);
+  });
+  
+  $('#marketingBackButton').click(function(){
+  	$('#productBlock').fadeOut(300);
+  });
+  
+  $('#findOutMore1').click(function(){
+  	$('#pinkBlock').fadeIn(300);
+    $('#pinkVideoiFrame').attr('src', "https://player.vimeo.com/video/590795281?h=2a4d48759e");
+  });
+  
+  $('#closePinkButton').click(function(){
+  	$('#pinkBlock').fadeOut(300);
+    $('#pinkVideoiFrame').attr('src', "");
+  });
+  
+  $('#pinkMoreInfoButton').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/Mary%20Kay%20Pink%20Changing%20Lives.pdf");
+  });
+  
+  $('#findOutMore2').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/Mary%20Kay%20Pink%20Doing%20Green.pdf");
+  });
+  
+  $('#whyButton').click(function(){
+  	$('#whyBlock').fadeIn(300);
+    $('#whyVideoiFrame').attr('src', "https://player.vimeo.com/video/590795449?h=090fa0aed8");
+  });
+  
+  $('#closeWhyButton').click(function(){
+  	$('#whyBlock').fadeOut(300);
+    $('#whyVideoiFrame').attr('src', "");
+  });
+  
+  $('#sustainableButton').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/Mary%20Kay%20Sustainable%20Business%20Priorities.pdf");
+  });
+    
+  $('#scienceButton').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/The%20Science%20Behind%20The%20Products.pdf");
+  });
+  
+  $('#karenButton').click(function(){
+    $('#videoiFrame').attr('src',"https://player.vimeo.com/video/590899419");
+    $('#videoBlock').fadeIn(300);
+  });
+    
+  $('#watchButton').click(function(){
+    $('#videoiFrame').attr('src',"https://player.vimeo.com/video/590795602?h=e49442496f");
+    $('#videoBlock').fadeIn(300);
+  });
+  
+  $('#newProductsButton').click(function(){
+  	$('#newProductsBlock').fadeIn(300);
+  });
+  
+  $('#newProductsBackButton').click(function(){
+  	$('#newProductsBlock').fadeOut(300);
+  });
+    
+  $('#infoButton1').click(function(){
+  	$('#product1Block').fadeIn(300);
+  });
+  
+  $('#product1BackButton').click(function(){
+  	$('#product1Block').fadeOut(300);
+    $('#product1Slider').css('display','block');
+    $('#product1Video').css('display','none');
+    $('#product1VideoiFrame').attr('src','');
+  });
+  
+  $('#product1InfoButton').click(function(){
+    $('#product1Slider').css('display','block');
+    $('#product1Video').css('display','none');
+    $('#product1VideoiFrame').attr('src','');
+  });
+  
+  $('#product1VideoButton').click(function(){
+    $('#product1Slider').css('display','none');
+    $('#product1Video').css('display','block');
+    $('#product1VideoiFrame').attr('src','https://player.vimeo.com/video/590794812?h=13e2062340');
+  });
+  
+  $('#product1Image1, #product1Image2, #product1Image3').click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/luis%20casco%20eyeshadow.pdf");
+  });
+  
+  $('#infoButton2').click(function(){
+  	$('#product2Block').fadeIn(300);
+  });
+  
+  $('#product2BackButton').click(function(){
+  	$('#product2Block').fadeOut(300);
+    $('#product2Slider').css('display','block');
+    $('#product2Video').css('display','none');
+    $('#product2VideoiFrame').attr('src','');
+  });
+   
+  $('#product2InfoButton').click(function(){
+    $('#product2Slider').css('display','block');
+    $('#product2Video').css('display','none');
+    $('#product2VideoiFrame').attr('src','');
+  });
+  
+  $('#product2VideoButton').click(function(){
+    $('#product2Slider').css('display','none');
+    $('#product2Video').css('display','block');
+    $('#product2VideoiFrame').attr('src','https://player.vimeo.com/video/590794716?h=46ef84b303');
+  });
+  
+  $('#product2Image1, #product2Image2').click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/2%20step%20mask.pdf");
+  });
+    
+  $('#infoButton3').click(function(){
+  	$('#product3Block').fadeIn(300);
+  });
+  
+  $('#product3BackButton').click(function(){
+  	$('#product3Block').fadeOut(300);
+  });
+  
+  $('#product3Image1, #product3Image2, #product3Image3').click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/metallic%20mask.pdf");
+  });
+  
+  $('#infoButton4').click(function(){
+  	$('#product4Block').fadeIn(300);
+  });
+  
+  $('#product4BackButton').click(function(){
+  	$('#product4Block').fadeOut(300);
+  });
+  
+  $('#product4Image1, #product4Image2).click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/body%20care.pdf");
+  });
+  
+  $('#infoButton5').click(function(){
+  	$('#product5Block').fadeIn(300);
+  });
+  
+  $('#product5BackButton').click(function(){
+  	$('#product5Block').fadeOut(300);
+  });
+  
+  $('#product5Image1, #product5Image2).click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/fragrances.pdf");
+  });
+  
+  $('#infoButton6').click(function(){
+  	$('#product6Block').fadeIn(300);
+  });
+  
+  $('#product6BackButton').click(function(){
+  	$('#product6Block').fadeOut(300);
+  });
+  
+  $('#product6Image1, #product6Image2, #product6Image3, #product6Image4, #product6Image5).click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/precious%20gem%20makeup.pdf");
+  });
+ 
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 
