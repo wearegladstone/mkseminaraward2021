@@ -88,8 +88,8 @@ $( document ).ready(function() {
 
   $('#seminar2022Button,#seminar2022Button2').click(function(){
   	$('#seminarAward2022').fadeIn(300);
-    $('#ringImage').attr('src','images/Rings_Ring COPS');
-    $('#ringTitle').attr('src','images/Rings_Title COPS');
+    $('#ringImage').attr('src','images/Rings_Ring COPS.png');
+    $('#ringTitle').attr('src','images/Rings_Title COPS.png');
     ringVideo = "https://player.vimeo.com/video/592647755";
     currentRing = 1;
   });
@@ -125,23 +125,23 @@ $( document ).ready(function() {
     switch(ringNum)
     {
       case 1:
-            $('#ringImage').attr('src','images/Rings_Ring-COPS');
-            $('#ringTitle').attr('src','images/Rings_Title-COPS');
+            $('#ringImage').attr('src','images/Rings_Ring-COPS.png');
+            $('#ringTitle').attr('src','images/Rings_Title-COPS.png');
         	ringVideo = "https://player.vimeo.com/video/592647755";
       break;
       case 2:
-            $('#ringImage').attr('src','images/Rings_Ring-COS');
-            $('#ringTitle').attr('src','images/Rings_Title-COS');
+            $('#ringImage').attr('src','images/Rings_Ring-COS.png');
+            $('#ringTitle').attr('src','images/Rings_Title-COS.png');
         	ringVideo = "https://player.vimeo.com/video/592647907";
       break;
       case 3:
-            $('#ringImage').attr('src','images/Rings_Ring-COUP');
-            $('#ringTitle').attr('src','images/Rings_Title-COUP');
+            $('#ringImage').attr('src','images/Rings_Ring-COUP.png');
+            $('#ringTitle').attr('src','images/Rings_Title-COUP.png');
         	ringVideo = "https://player.vimeo.com/video/592647986";
       break;
       case 4:
-            $('#ringImage').attr('src','images/Rings_Ring-Queen');
-            $('#ringTitle').attr('src','images/Rings_Title-Queen');
+            $('#ringImage').attr('src','images/Rings_Ring-Queen.png');
+            $('#ringTitle').attr('src','images/Rings_Title-Queen.png');
         	ringVideo = "https://player.vimeo.com/video/592647824";
       break;
     }
