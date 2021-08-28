@@ -606,10 +606,12 @@ $( document ).ready(function() {
   
   $('#maryKayAshButton').click(function(){
   	$('#maryKayAshBlock').fadeIn(300);
+    $('#mkAshvideoiFrame').attr('src',"https://www.youtube.com/embed/p47Ski40PG0?list=PLnvFnCfnsAdDJtoFKgCR5Gv314dgNVRw7");
   });
     
   $('#maryKayAshBackButton').click(function(){
-  	$('#maryKayAshBlock').fadeIn(300);
+  	$('#maryKayAshBlock').fadeOut(300);
+    $('#mkAshvideoiFrame').attr('src',"");
   });
     
   $('#6Button').click(function(){
