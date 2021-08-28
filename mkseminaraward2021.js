@@ -125,23 +125,23 @@ $( document ).ready(function() {
     switch(ringNum)
     {
       case 1:
-            $('#ringImage').attr('src','images/Rings_Ring COPS');
-            $('#ringTitle').attr('src','images/Rings_Title COPS');
+            $('#ringImage').attr('src','images/Rings_Ring-COPS');
+            $('#ringTitle').attr('src','images/Rings_Title-COPS');
         	ringVideo = "https://player.vimeo.com/video/592647755";
       break;
       case 2:
-            $('#ringImage').attr('src','images/Rings_Ring COS');
-            $('#ringTitle').attr('src','images/Rings_Title COS');
+            $('#ringImage').attr('src','images/Rings_Ring-COS');
+            $('#ringTitle').attr('src','images/Rings_Title-COS');
         	ringVideo = "https://player.vimeo.com/video/592647907";
       break;
       case 3:
-            $('#ringImage').attr('src','images/Rings_Ring COUP');
-            $('#ringTitle').attr('src','images/Rings_Title COUP');
+            $('#ringImage').attr('src','images/Rings_Ring-COUP');
+            $('#ringTitle').attr('src','images/Rings_Title-COUP');
         	ringVideo = "https://player.vimeo.com/video/592647986";
       break;
       case 4:
-            $('#ringImage').attr('src','images/Rings_Ring Queen');
-            $('#ringTitle').attr('src','images/Rings_Title Queen');
+            $('#ringImage').attr('src','images/Rings_Ring-Queen');
+            $('#ringTitle').attr('src','images/Rings_Title-Queen');
         	ringVideo = "https://player.vimeo.com/video/592647824";
       break;
     }
@@ -650,7 +650,7 @@ $( document ).ready(function() {
   
   $('#4Button').click(function(){
   	$('#4ValuesBlock').fadeIn(300);
-    $('#4ValuesImage').attr('src',"images/Core_Value 1.jpg");
+    $('#4ValuesImage').attr('src',"images/Core_Value-1.jpg");
   });
   
   $('#4ValuesBackButton').click(function(){
@@ -658,19 +658,19 @@ $( document ).ready(function() {
   });
     
   $('#4ValuesButton1').click(function(){
-    $('#4ValuesImage').attr('src',"images/Core_Value 1.jpg");
+    $('#4ValuesImage').attr('src',"images/Core_Value-1.jpg");
   });
     
   $('#4ValuesButton2').click(function(){
-    $('#4ValuesImage').attr('src',"images/Core_Value 2.jpg");
+    $('#4ValuesImage').attr('src',"images/Core_Value-2.jpg");
   });
       
   $('#4ValuesButton3').click(function(){
-    $('#4ValuesImage').attr('src',"images/Core_Value 3.jpg");
+    $('#4ValuesImage').attr('src',"images/Core_Value-3.jpg");
   });
       
   $('#4ValuesButton4').click(function(){
-    $('#4ValuesImage').attr('src',"images/Core_Value 4.jpg");
+    $('#4ValuesImage').attr('src',"images/Core_Value-4.jpg");
   });
   
  //Mary Kay Products
