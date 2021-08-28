@@ -1,4 +1,3 @@
-<script>
 $( document ).ready(function() {
   
   $('#mainHall2Button').click(function(){
@@ -671,15 +670,13 @@ $( document ).ready(function() {
   $('#4ValuesButton4').click(function(){
     $('#4ValuesImage').attr('src',"images/Core_Value 4.jpg");
   });
-  
-});
-  
-  
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+     
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-window.addEventListener('resize', () => {
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+  window.addEventListener('resize', () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+  
 });
-</script>
