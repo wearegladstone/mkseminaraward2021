@@ -834,7 +834,7 @@ $( document ).ready(function() {
   	$('#product6Block').fadeOut(300);
   });
   
-  $('#product6Image1, #product6Image2, #product6Image3, #product6Image4, #product6Image5).click(function(){
+  $('#product6Image1, #product6Image2, #product6Image3, #product6Image4, #product6Image5').click(function(){
     window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/precious%20gem%20makeup.pdf");
   });
  
