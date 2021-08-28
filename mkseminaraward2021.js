@@ -810,7 +810,7 @@ $( document ).ready(function() {
   	$('#product4Block').fadeOut(300);
   });
   
-  $('#product4Image1, #product4Image2).click(function(){
+  $('#product4Image1, #product4Image2').click(function(){
     window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/body%20care.pdf");
   });
   
