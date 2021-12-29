@@ -237,6 +237,21 @@ $( document ).ready(function() {
   $('#top3LearnMoreButton').click(function(){
   	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/assets/Top3%20Skincare.pdf");
   });
+    
+  //3R
+  $('#3RButton').click(function(){
+    $('#3RSlider').css('display','block');
+  	$('#3RBlock').fadeIn(300);
+  });
+  
+  $('#close3RButton').click(function(){
+    $('#3RSlider').css('display','none');
+  	$('#top3Block').fadeOut(300);
+  });
+  
+   $('#3RImage1, #3RImage2, #3RImage3').click(function(){
+    window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/assets/2022%20Key%20Focus%203R-%20ECM%20Final.pdf");
+  });
   
   //February
   $('#febProductButton').click(function(){
