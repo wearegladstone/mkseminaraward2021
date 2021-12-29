@@ -1,5 +1,11 @@
 $( document ).ready(function() {
   
+  //Video
+  $('#closeVideoButton').click(function(){
+  	$('#videoiFrame').attr('src','');
+    $('#videoBlock').fadeOut(300);
+  });
+  
   //Foyer
   //Malaysia
   $('#malaysiaRecognitionButton').click(function(){
