@@ -162,11 +162,6 @@ $( document ).ready(function() {
   });
   
   //Singapore
-  $('#sg251kCOAButton').click(function(){
-    $('#videoiFrame').attr('src',"https://player.vimeo.com/video/658713304");
-    $('#videoBlock').fadeIn(300);
-  });
-  
   $('#sg155kCOAButton').click(function(){
     $('#videoiFrame').attr('src',"https://player.vimeo.com/video/658706552");
     $('#videoBlock').fadeIn(300);
@@ -198,11 +193,6 @@ $( document ).ready(function() {
   });
               
   $('#sgNSDDButton').click(function(){
-    $('#videoiFrame').attr('src',"https://player.vimeo.com/video/658707035");
-    $('#videoBlock').fadeIn(300);
-  });
-                
-  $('#sgLeadButton').click(function(){
     $('#videoiFrame').attr('src',"https://player.vimeo.com/video/658707035");
     $('#videoBlock').fadeIn(300);
   });
@@ -246,7 +236,7 @@ $( document ).ready(function() {
   
   $('#close3RButton').click(function(){
     $('#3RSlider').css('display','none');
-  	$('#top3Block').fadeOut(300);
+  	$('#3RBlock').fadeOut(300);
   });
   
    $('#3RImage1, #3RImage2, #3RImage3').click(function(){
