@@ -208,6 +208,36 @@ $( document ).ready(function() {
   });
   
  //Products
+  //No 1
+  $('#no1Button').click(function(){
+    $('#no1VideoiFrame').attr('src',"https://player.vimeo.com/video/658692120");
+  	$('#no1Block').fadeIn(300);
+  });
+  
+  $('#closeNo1Button').click(function(){
+    $('#no1VideoiFrame').attr('src',"");
+  	$('#no1Block').fadeOut(300);
+  });
+  
+  $('#no1LearnMoreButton').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/assets/No1%20Skinvigorate%20Sonic.pdf");
+  });
+  
+  //Top 3
+  $('#top3Button').click(function(){
+    $('#top3VideoiFrame').attr('src',"https://player.vimeo.com/video/658692259");
+  	$('#top3Block').fadeIn(300);
+  });
+  
+  $('#closeTop3Button').click(function(){
+    $('#top3VideoiFrame').attr('src',"");
+  	$('#top3Block').fadeOut(300);
+  });
+  
+  $('#top3LearnMoreButton').click(function(){
+  	window.open("https://marykay.sgp1.cdn.digitaloceanspaces.com/assets/Top3%20Skincare.pdf");
+  });
+  
   //February
   $('#febProductButton').click(function(){
   	$('#febProductBlock').fadeIn(300);
